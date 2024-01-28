@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
+//this will load property file
 @PropertySource(value = "file:/etc/book-store/application-${spring.profiles.active}.properties")
 public class BookStoreApplication {
 
